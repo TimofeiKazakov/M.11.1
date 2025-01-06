@@ -32,5 +32,5 @@ print()
 # Анализ некоторых атрибутов местонахождения запросов
 json_response = response.json()
 repository = json_response['items'][0]
-print(f'Repository name: {repository["name"]}')  # Python 3.6+
-print(f'Repository description: {repository["description"]}')  # Python 3.6+
+print(f'Название репозитория: {repository["name"]}')  # Python 3.6+
+print(f'Описание репозитория: {repository["description"]}')  # Python 3.6+
